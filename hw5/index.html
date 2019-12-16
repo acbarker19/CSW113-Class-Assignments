@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html><head>
+  <!-- Jim Klayder fall 2017
+  js has many ways to create and use objects.
+  Here is a good overview.
+  
+  https://www.htmlgoodies.com/beyond/javascript/object.create-the-new-way-to-create-objects-in-javascript.html
+  
+  To keep things general and straight forward we will use a 
+  classic technique, and here is our first example.
+  
+  The basic idea is to create a function that initializes some data members
+  and declares some functions inside the main function.
+  
+  
+  /////////////
+  This particular example shows how to use Animator11 to rotate an object
+  at any angle.  For two examples, see
+  
+  StickThatFalls
+  Ball
+ 
+  -->
+  <link rel="icon"
+href="http://raider.mountunion.edu/csw/CSW113/Fall2017/favicon-32x32.png" />
+    <title>Landscape Demo</title>
+    <script src="Animator11.js"></script>
+	<script src="PersonThatFlips.js"></script>
+    <script src="Main.js"></script>
+    <link rel="stylesheet" href="objectDemo.css">
+
+
+  </head>
+  <body onload="init();">
+    <canvas id="canvas" width="700" height="300"></canvas> <br>
+    <input value="Make Person Flip 2x" onclick="makePersonFlipTwoTimes();" type="button">
+    <input value="Make Person Flip 4x" onclick="makePersonFlipFourTimes();" type="button">
+  
+<P id="ageInfo" class="debug" >age info here</P>
+</body></html>

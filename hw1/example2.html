@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- example of how to use JavaScript to draw on a canvas
+        using ideas from:
+        
+        http://www.html5canvastutorials.com/
+        
+        This particular example is from:
+        http://www.html5canvastutorials.com/advanced/html5-canvas-global-alpha-tutorial/
+    -->
+        
+    <title>Example 2</title>
+  </head>
+  <body>
+  
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      // draw rectangle
+      context.beginPath();
+      context.rect(210, 100, 100, 100);
+      context.fillStyle = 'cyan';
+      context.fill();
+
+      // drawcircle
+      context.globalAlpha = 0.5;
+      context.beginPath();
+      context.arc(260, 100, 60, 0, 2 * Math.PI, false);
+      context.fillStyle = 'blue';
+      context.fill();
+	  
+	  //draw semicircle
+	  context.beginPath();
+      context.arc(260, 70, 90, 0, Math.PI, false);
+      context.closePath();
+      context.lineWidth = 5;
+      context.fillStyle = 'purple';
+      context.fill();
+      context.strokeStyle = '#550000';
+      context.stroke();
+    </script>
+  </body>
+</html>   

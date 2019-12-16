@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="myIcon.png" />
+		<title>Final Project</title>
+		<script src="Animator11.js"></script>
+		<script src="FerrisWheel.js"></script>
+		<script src="FancyText.js"></script>
+		<script src="Main.js"></script>
+		<link rel="stylesheet" href="objectDemo.css" />
+	</head>
+	<body onload="init();">
+		<canvas id="canvas" width="700" height="300"></canvas> <br>
+   
+		<input class="displayStyle" value="143" id="rotationTime" type="text">
+
+		<input value="Start" onclick="doRotation(5);" type="button">
+		<input value="Pause" onclick="pause();" type="button">
+		<input value="Continue" onclick="cont();" type="button">
+		<input value="Reset" onclick="reset();" type="button">
+		
+		<hr>
+		
+		<p>You can enter any number you like in the text field above. In its initial state, the ferris 
+			wheel will do 3 full rotations.<br>Increasing the number will increase the revolutions, and
+			decreasing the number will decrease the revolutions. Use<br>multiples of ~72 to do one
+			full rotation.</p>
+  
+		<P id="ageInfo" class="debug" >age info here</P>
+	</body>
+</html>

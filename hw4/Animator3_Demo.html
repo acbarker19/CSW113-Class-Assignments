@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <!-- Jim Klayder fall 2017
+  js has many ways to create and use objects.
+  Here is a good overview.
+  
+  https://www.htmlgoodies.com/beyond/javascript/object.create-the-new-way-to-create-objects-in-javascript.html
+  
+  To keep things general and straight forward we will use a 
+  classic technique, and here is our first example.
+  
+  The basic idea is to create a function that initializes some data members
+  and declares some functions inside the main function.
+ 
+  -->
+    <title>Object Demo</title>
+    <script src="Animator3_Demo_files/Animator10.js"></script>
+    <script src="Animator3_Demo_files/Car.js"></script>
+    <script src="Animator3_Demo_files/Main.js"></script>
+    <link rel="stylesheet" href="Animator2_Demo_files/objectDemo.css">
+
+
+  </head>
+  <body onload="init();">
+    <canvas id="canvas" width="500" height="500"></canvas> <br>
+    <input value="Scott" onclick="moveRight('Scott');" type="button">
+    <input value="Tim" onclick="moveRight('Tim');" type="button">
+    <input value="Bill" onclick="moveRight('Bill');" type="button">
+    <input value="Karen" onclick="moveRight('Karen');" type="button">
+    <input value="Becky" onclick="moveRight('Becky');" type="button">
+  
+
+</body></html>

@@ -1,0 +1,26 @@
+body {
+	color: #77f;
+	background-color: #eef;
+}
+
+
+canvas {
+	margin: 20px 20px 20px 20px;
+	border: 5px solid #777;
+}
+
+/*  for many button options see:
+   https://css-tricks.com/examples/ButtonMaker/
+*/
+
+input {
+	color: #f44;
+	background-color: #fdd;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+input:hover {
+	background-color: #ecc;
+}
