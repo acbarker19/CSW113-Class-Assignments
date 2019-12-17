@@ -1,6 +1,6 @@
 # CSW113 Class Assignments
 
-A repository containing multiple small projects created in my second second web design class (CSW113) at the University of Mount Union.
+A repository containing multiple small projects created in my second web design class (CSW113) at the University of Mount Union.
 
 Some code is supplied by Dr. James Klayder and modified by Alec Barker.
 
