@@ -4,14 +4,14 @@ A repository containing multiple small projects created in my second second web 
 
 Some code is supplied by Dr. James Klayder and modified by Alec Barker.
 
-It contains webpages the use Javascript to create the following:
+It contains webpages that use Javascript and canvases to create the following:
 - Simple Shape Drawings
 - Line and Shape Drawings
-- Random Number Game
-- Moving Cars
-- Moving Cars Using an Array
-- Smooth Movement at Different Speeds
-- Flipping Stick Person
-- Rotating Around Multiple Pivot Points
-- Moving and Changing Size
-- A Controllable Animated Ferris
+- Random Number Guessing Game
+- Moving Cars Using a Button
+- Moving Cars Using a Button and an Array
+- Smooth Movement of Animated Objects at Different Speeds Using a Button
+- Flipping a Stick Person Using a Button
+- Rotating a Stick Person Around Multiple Pivot Points Using Multiple Controls
+- Moving and Changing the Size of an Object
+- An Animated Ferris Wheel with Multiple Controls
