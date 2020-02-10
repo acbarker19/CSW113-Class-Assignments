@@ -1,4 +1,4 @@
-# CSW113 Class Assignments
+# CSW113: Intro to Animation
 
 A repository containing multiple small projects created in my second web design class (CSW113: Intro to Animation) at the University of Mount Union taught by Dr. Jim Klayder.
 
